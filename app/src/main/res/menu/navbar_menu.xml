@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/produkFragment"
+        android:title="@string/produk_text"
+        android:icon="@drawable/ic_produk"></item>
+    <item android:id="@+id/perawatanFragment"
+        android:title="@string/Perawatan_text"
+        android:icon="@drawable/ic_perawatan"></item>
+    <item android:id="@+id/promoFragment2"
+        android:title="Promo"
+        android:icon="@drawable/ic_promo"></item>
+    <item android:id="@+id/jadwalFragment"
+        android:title="@string/jadwal_text"
+        android:icon="@drawable/ic_jadwal"></item>
+    <item android:id="@+id/akunFragment"
+        android:title="@string/akun_text"
+        android:icon="@drawable/ic_akun"></item>
+</menu>

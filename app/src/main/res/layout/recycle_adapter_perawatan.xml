@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_perawatan"
+    android:layout_marginBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".recycle_adapter.RecycleAdapterPerawatan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/perawatan_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_perawatan_text"
+            android:text="Nama Produk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/harga_perawatan_text"
+            android:text="Harga Produk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deskripsi_perawatan_text"
+            android:text="Deskripsi"
+            android:textSize="10dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

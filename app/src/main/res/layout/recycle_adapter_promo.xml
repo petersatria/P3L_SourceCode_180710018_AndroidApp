@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/card_promo"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".recycle_adapter.RecycleAdapterPromo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/promo_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_promo_text"
+            android:text="Nama Produk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kode_promo_text"
+            android:text="Harga Produk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/diskon_promo_text"
+            android:text="Deskripsi"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

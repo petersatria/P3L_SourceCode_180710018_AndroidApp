@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/red_draken_1"
+        android:gravity="top"
+        app:titleTextColor="@color/white">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_back"
+            android:id="@+id/app_bar_back_btn"
+            android:visibility="visible" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nautical Beauty Center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_jadwal"
+    android:layout_marginBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".recycle_adapter.RecycleAdapterJadwal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/jadwal_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_jadwal_text"
+            android:text="Nama Pegawai"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hari_jadwal_text"
+            android:text="Hari"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jam_jadwal_text"
+            android:text="Jadwal"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

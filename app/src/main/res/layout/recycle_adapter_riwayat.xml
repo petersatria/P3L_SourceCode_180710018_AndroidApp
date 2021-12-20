@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/card_riwayat"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".recycle_adapter.RecycleAdapterRiwayat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/riwayat_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tgl_riwayat_text"
+            android:text="Tgl Transaksi"
+            android:textSize="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kode_riwayat_text"
+            android:text="Kode Transaksi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total_riwayat_text"
+            android:gravity="right"
+            android:text="Total Transaksi"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

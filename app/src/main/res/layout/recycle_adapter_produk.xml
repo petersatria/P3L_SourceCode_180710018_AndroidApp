@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/card_produk"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".recycle_adapter.RecycleAdapterProduk">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/produk_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_produk_text"
+            android:text="Nama Produk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/harga_produk_text"
+            android:text="Harga Produk"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok : " />
+            <TextView
+                android:id="@+id/stok_produk_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Ukuran :" />
+            <TextView
+                android:id="@+id/ukuran_produk_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123 ml" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

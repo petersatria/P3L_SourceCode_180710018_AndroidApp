@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/produkFragment">
+    <fragment
+        android:id="@+id/produkFragment"
+        android:name="com.e.main.nbc_0018.PodukFragment"
+        android:label="fragment_produk"
+        tools:layout="@layout/fragment_poduk" >
+        <action
+            android:id="@+id/action_produkFragment_to_bestProdukFragment"
+            app:destination="@id/bestProdukFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perawatanFragment"
+        android:name="com.e.main.nbc_0018.PerawatanFragment"
+        android:label="fragment_perawatan"
+        tools:layout="@layout/fragment_perawatan" >
+        <action
+            android:id="@+id/action_perawatanFragment_to_bestPerawatanFragment"
+            app:destination="@id/bestPerawatanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jadwalFragment"
+        android:name="com.e.main.nbc_0018.JadwalFragment"
+        android:label="fragment_jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+    <fragment
+        android:id="@+id/akunFragment"
+        android:name="com.e.main.nbc_0018.AkunFragment"
+        android:label="fragment_akun"
+        tools:layout="@layout/fragment_akun" >
+        <action
+            android:id="@+id/action_akunFragment_to_userProfilFragment"
+            app:destination="@id/userProfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bestProdukFragment"
+        android:name="com.e.main.nbc_0018.BestProdukFragment"
+        android:label="fragment_best_produk"
+        tools:layout="@layout/fragment_best_produk" >
+        <action
+            android:id="@+id/action_bestProdukFragment_to_produkFragment"
+            app:destination="@id/produkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bestPerawatanFragment"
+        android:name="com.e.main.nbc_0018.BestPerawatanFragment"
+        android:label="fragment_best_perawatan"
+        tools:layout="@layout/fragment_best_perawatan" >
+        <action
+            android:id="@+id/action_bestPerawatanFragment_to_perawatanFragment"
+            app:destination="@id/perawatanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/promoFragment2"
+        android:name="com.e.main.nbc_0018.PromoFragment"
+        android:label="fragment_promo"
+        tools:layout="@layout/fragment_promo" />
+    <fragment
+        android:id="@+id/userProfilFragment"
+        android:name="com.e.main.nbc_0018.UserProfilFragment"
+        android:label="fragment_user_profil"
+        tools:layout="@layout/fragment_user_profil" >
+        <action
+            android:id="@+id/action_userProfilFragment_to_akunFragment"
+            app:destination="@id/akunFragment" />
+        <action
+            android:id="@+id/action_userProfilFragment_to_riwayatFragment"
+            app:destination="@id/riwayatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/riwayatFragment"
+        android:name="com.e.main.nbc_0018.RiwayatFragment"
+        android:label="fragment_riwayat"
+        tools:layout="@layout/fragment_riwayat" >
+        <action
+            android:id="@+id/action_riwayatFragment_to_userProfilFragment"
+            app:destination="@id/userProfilFragment" />
+    </fragment>
+</navigation>

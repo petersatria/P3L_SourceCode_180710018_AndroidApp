@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">nbc-0018</string>
+    <string name="produk_text">Produk</string>
+    <string name="Perawatan_text">Perawatan</string>
+    <string name="akun_text">Akun</string>
+    <string name="jadwal_text">Jadwal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
